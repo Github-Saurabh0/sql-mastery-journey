@@ -1,0 +1,1 @@
+SELECT 'Hello SQL Boss Saurabh!' AS greeting;
