@@ -16,13 +16,14 @@ It includes practical SQL queries, schema design, real-life mini projects, and p
 
 ## 🗂️ Folder Structure
 
+```
 sql-mastery-journey/
 ├── Day-1-Sql-Mastery/ # All daily practice .sql files
 │ └── day1_basic_select.sql
 ├── data/ # Sample CSV or seed data (future use)
 ├── docs/ # ER diagrams, schema plans, notes
 └── README.md # You're here!
-
+```
 
 ---
 
