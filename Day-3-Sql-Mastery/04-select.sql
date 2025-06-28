@@ -5,3 +5,6 @@ SELECT * FROM employees;
 
 -- Select specific columns
 SELECT emp_name, salary FROM employees;
+
+-- Select with condition
+SELECT * FROM employees WHERE salary > 60000;
