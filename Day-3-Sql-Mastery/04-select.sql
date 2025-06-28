@@ -11,3 +11,6 @@ SELECT * FROM employees WHERE salary > 60000;
 
 -- Select using ORDER BY
 SELECT * FROM employees ORDER BY salary DESC;
+
+-- Count total employees
+SELECT COUNT(*) AS total_employees FROM employees;
