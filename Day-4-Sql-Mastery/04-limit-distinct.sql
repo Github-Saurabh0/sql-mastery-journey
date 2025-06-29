@@ -4,3 +4,6 @@ USE sql_mastery_day2;
 SELECT * FROM employees
 ORDER BY salary DESC
 LIMIT 2;
+
+-- Get unique department IDs
+SELECT  department_id FROM employees;
