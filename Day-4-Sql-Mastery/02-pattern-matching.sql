@@ -12,3 +12,4 @@ WHERE emp_name LIKE '%n';
 SELECT * FROM employees
 WHERE emp_name LIKE '%rabh%';
 
+
