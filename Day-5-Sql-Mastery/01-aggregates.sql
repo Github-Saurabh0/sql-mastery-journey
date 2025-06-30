@@ -9,3 +9,6 @@ SELECT SUM(salary) AS total_salary FROM employees;
 
 -- Average salary
 SELECT AVG(salary) AS average_salary FROM employees;
+
+-- Minimum salary
+SELECT MIN(salary) AS lowest_salary FROM employees;
