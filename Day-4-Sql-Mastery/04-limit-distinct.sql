@@ -6,4 +6,4 @@ ORDER BY salary DESC
 LIMIT 2;
 
 -- Get unique department IDs
-SELECT  department_id FROM employees;
+SELECT DISTINCT department_id FROM employees;
