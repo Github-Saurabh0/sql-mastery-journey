@@ -12,3 +12,6 @@ SELECT AVG(salary) AS average_salary FROM employees;
 
 -- Minimum salary
 SELECT MIN(salary) AS lowest_salary FROM employees;
+
+-- Maximum salary
+SELECT MAX(salary) AS highest_salary FROM employees;
