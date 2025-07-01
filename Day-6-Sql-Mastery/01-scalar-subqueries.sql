@@ -5,3 +5,9 @@ SELECT * FROM employees
 WHERE salary > (
     SELECT AVG(salary) FROM employees
 );
+
+-- Get employee with the highest salary
+SELECT * FROM employees
+WHERE salary = (
+    SELECT MAX(salary) FROM employees
+);
