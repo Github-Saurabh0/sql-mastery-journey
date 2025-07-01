@@ -1,4 +1,4 @@
--- Scalar subquery → Ek value return karta hai (jaise max, avg, min).
+-- Table subquery → Ek table jaisa output deta hai (multiple rows/columns)..
 
 USE sql_mastery_day2;
 
