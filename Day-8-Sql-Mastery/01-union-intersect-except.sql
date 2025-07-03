@@ -12,3 +12,8 @@ INSERT INTO employees_temp (emp_id, emp_name, department_id) VALUES
 (201, 'Saurabh Kushwaha', 1),
 (202, 'Aman Gupta', 4),
 (203, 'Riya Sen', 2);
+
+-- UNION: Combine distinct employee names
+SELECT emp_name FROM employees
+UNION
+SELECT emp_name FROM employees_temp;
