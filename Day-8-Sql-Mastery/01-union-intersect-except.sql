@@ -23,3 +23,9 @@ SELECT emp_name FROM employees_temp;
 SELECT emp_name FROM employees
 UNION ALL
 SELECT emp_name FROM employees_temp;
+
+-- INTERSECT is not supported in MySQL directly
+-- Simulate INTERSECT using INNER JOIN
+SELECT e.emp_name
+FROM employees e
+INNER JOIN employees_temp t ON e.emp_name = t.emp_name;
