@@ -17,3 +17,9 @@ INSERT INTO employees_temp (emp_id, emp_name, department_id) VALUES
 SELECT emp_name FROM employees
 UNION
 SELECT emp_name FROM employees_temp;
+
+
+-- UNION ALL: Combine all, including duplicates
+SELECT emp_name FROM employees
+UNION ALL
+SELECT emp_name FROM employees_temp;
