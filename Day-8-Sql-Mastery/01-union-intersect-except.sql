@@ -29,3 +29,10 @@ SELECT emp_name FROM employees_temp;
 SELECT e.emp_name
 FROM employees e
 INNER JOIN employees_temp t ON e.emp_name = t.emp_name;
+
+-- EXCEPT is also not supported directly
+-- Simulate EXCEPT using LEFT JOIN + IS NULL
+SELECT e.emp_name
+FROM employees e
+LEFT JOIN employees_temp t ON e.emp_name = t.emp_name
+WHERE t.emp_name IS NULL;
