@@ -8,3 +8,13 @@ SELECT emp_name, salary,
         ELSE 'Low Earner'
     END AS salary_category
 FROM employees;
+
+-- CASE WHEN: Label departments
+SELECT department_id,
+    CASE department_id
+        WHEN 1 THEN 'Engineering'
+        WHEN 2 THEN 'Marketing'
+        WHEN 3 THEN 'HR'
+        ELSE 'Unknown'
+    END AS department_name
+FROM employees;
