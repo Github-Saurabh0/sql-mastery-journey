@@ -9,8 +9,12 @@ It includes practical SQL queries, schema design, real-life mini projects, and p
 
 | Day | Topic Covered                       | File/Folder                                |
 |-----|-------------------------------------|--------------------------------------------|
-| 1   | Basic SELECT query                  | `day1_basic_select/day1_basic_select.sql`  |
-| 2   | Coming soon...                      |                                            |
+| 1   | Basic SELECT query                  | `Day-1-Sql-Mastery/day1_basic_select.sql`  |
+| 2   | Data Types, Constraints & Basic Table Creation                  | `Day-2-Sql-Mastery/01-data-types.sql,02-constraints.sql,03-create-table.sql,04-alter-drop.sql`  |
+| 3   | Basic SELECT query                  | `Day-3-Sql-Mastery/day1_basic_select.sql`  |
+| 4   | Basic SELECT query                  | `Day-4-Sql-Mastery/day1_basic_select.sql`  |
+| 5   | Basic SELECT query                  | `Day-5-Sql-Mastery/day1_basic_select.sql`  |
+| 6   | Basic SELECT query                  | `Day-6-Sql-Mastery/day1_basic_select.sql` 
 
 ---
 
@@ -52,6 +56,18 @@ sql-mastery-journey/
 - 📌 Mini E-commerce database project
 - 📌 SQL interview questions practice
 - 📌 Window functions, subqueries, and joins
+
+---
+
+🎓 Congratulations 🎉
+You've now covered the entire foundational to intermediate SQL roadmap in 10 days!
+Ab tum confident ho:
+
+✅ CRUD + Queries
+✅ Joins + Subqueries
+✅ Aggregations + Views
+✅ Index + Procedures/Functions
+✅ Transactions + Isolation
 
 ---
 
