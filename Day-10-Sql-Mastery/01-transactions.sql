@@ -8,3 +8,8 @@ UPDATE employees
 SET salary = salary - 5000
 WHERE emp_name = 'Saurabh Kushwaha';
 
+-- Add ₹5000 to Aman’s salary
+UPDATE employees
+SET salary = salary + 5000
+WHERE emp_name = 'Aman Gupta';
+
