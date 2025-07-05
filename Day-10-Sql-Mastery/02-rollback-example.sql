@@ -10,3 +10,6 @@ WHERE emp_name = 'Saurabh Kushwaha';
 
 -- Realize the mistake → rollback
 ROLLBACK;
+
+
+-- ROLLBACK purane state me data ko wapas le jata hai — jab tak commit nahi hua ho, data revert ho sakta hai.
