@@ -13,3 +13,7 @@ UPDATE employees
 SET salary = salary + 5000
 WHERE emp_name = 'Aman Gupta';
 
+-- Commit the changes
+COMMIT;
+
+-- Yeh transaction tabhi database me permanent hoga jab COMMIT hota hai.
