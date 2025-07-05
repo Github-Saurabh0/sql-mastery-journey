@@ -1,6 +1,7 @@
 # 📅 Day 10 – SQL Mastery Journey
 
 🔐 ACID Properties (Conceptual Summary)
+
 A – Atomicity: All parts of a transaction must complete, or none at all.
 
 C – Consistency: DB moves from one valid state to another.
